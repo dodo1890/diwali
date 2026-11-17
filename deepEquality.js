@@ -6,7 +6,7 @@ function type(value) {
 }
 
 function isLengthSame(value1, value2) {
-    return value1.length === value2.length;
+    return value1.length !== value2.length;
 }
 
 function areObjectsEqual(value1, value2) {
